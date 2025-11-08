@@ -1,0 +1,8 @@
+<view class="wrap">
+  <view wx:if="{{!phone}}" class="card">
+    <text>请先绑定手机号后使用</text>
+  </view>
+  <view wx:if="{{phone}}" class="card">
+    <text>欢迎使用恋爱教练AI（Black Gold版）</text>
+  </view>
+</view>
